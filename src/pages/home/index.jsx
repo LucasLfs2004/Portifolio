@@ -2,6 +2,7 @@ import { workExperienceData } from '../../data/experience';
 import Header from '../../components/header';
 import WorkExperienceCard from '../../components/workExperience';
 import * as C from './styles';
+import Footer from '../../components/footer';
 
 const Home = () => {
   return (
@@ -67,6 +68,7 @@ const Home = () => {
         </p>
         <img src='/assets/stack.png' alt='' />
       </C.Stack>
+      <Footer />
     </C.Container>
   );
 };
