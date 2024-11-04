@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Card = styled.article`
   width: calc(50% - 82px);
@@ -30,7 +30,7 @@ export const Content = styled.div`
   flex-direction: column;
   row-gap: 4px;
   p {
-    font-size: 11px;
+    font-size: 15px;
   }
 `;
 
